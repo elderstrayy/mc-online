@@ -3,32 +3,40 @@ NB: This will only work if you have a valid Minecraft account, and an existing .
 You can only play minecraft 1.5.2, due to the limitations of a web browser. (An okay pc is required, otherwise it will lag.
 *You will need to follow these instructions, otherwise it won't work.*
 Instructions:
-Download this 21.0 Firefox instaler from the official archive:
+1. Download Firefox 21.0
 https://ftp.mozilla.org/pub/firefox/releases/21.0/win32/en-US/Firefox%20Setup%2021.0.exe
-Next, install firefox, and go to about:config in the top address bar. It will say something like this "This may void your warranty".
-Ignore this warning, do not worry about it. After accepting, it will take you to a complicated looking page. Don't worry, it's easy.
-Just type app.update.auto, in the top search bar (not the address bar).
-Then, double click the app.update.auto block, and it will change it to false. Close Firefox 21.0
-Now, you need to install the *32 bit* version of Java *8*. You can get it here:
+2. Install Firefox
+3. Open Firefox
+4. Type about:config in address bar
+5. Find app.update.auto
+6. Double click app.update.auto to set as false
+7. Close Firefox
+8. Download 32 bit version of java jre 8 (Even if your PC is 64 bit)
 https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246472_2dee051a5d0647d5be72a7c0abff270e
-After you have completed the installation, open firefox again.
-Now, click on the top left orange block, that says "Firefox"
-It will display a list of options. On the right, you will see "Add-ons"
-Click on it, and choose plugins. If you see "Java(TM) Platform" in the list, you're all set!
-Now, go to the windows search, and type configure java. Open the app, and go to the security tab. Keep that open.
-Then, go to firefox and then go to http://mc-online.gq
-It will show you some warnings about blocked things.
-To fix these, follow these steps:
-Go back to the java config.
-In the site exception list, click edit site list.
-Click add. in the new box paste this inside:
-http://mc-online.gq/Mine.html
-Press enter, then click add, then paste this link:
-https://s3.amazonaws.com
-Press enter, then click add, then paste this:
-file:/
-If any warnings pop up, click continue.
-Click ok after adding everything, and then ok again.
-Now you can go back and reload http://mc-online.gq
-Java will warn you about things, so just check the box saying something like "I accept....." and then click run.
-Now, you can run Minecraft 1.5.2, right in your browser!
+9. Install 32 bit jre 8
+10. Open Firefox Again
+11. Click on the top left orange block that says "Firefox"
+12. Click Add-ons from the dropdown menu
+13. Select Plugins
+14. If you see "Java(TM) Platform" in the list, proceed to the next steps
+15. Go to search bar
+16. Type Configure Java and open app
+17. Go to security tab, and keep open
+18. Go back to firefox.
+19. Visit http://www.mc-online.gq/Mine.html
+A popup from java will appear, blocking the web page from working.
+20. Go back to the security tab of Java Config
+21. In site exception list section, click edit site list.
+Click add, and paste this link: http://www.mc-online.gq/Mine.html
+it will give you a warning, but click continue.
+22. Repeat this step, but with this link instead: https://s3.amazonaws.com
+No warnings will come up.
+23. Repeat again but paste this instead
+Press enter, then click add, then paste this: file:/
+It will give another warning, click continue.
+24. Once links are added, click ok, and ok again.
+25. Go back to firefox, and search about:config again, then search for java.
+Then double click the first result that shows up as false, to turn it into true.
+26. Now you can go to http://www.mc-online.gq/Mine.html
+Java popups will appear, just check required boxes, and click run.
+27. Play Minecraft!
